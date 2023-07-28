@@ -1,0 +1,14 @@
+version: '3.9'
+services:
+  postgres:
+    build: .
+
+    container_name: postgres
+
+    environment:
+      POSTGRES_PASSWORD: docker
+      POSTGRES_USER: postgres
+      # POSTGRES_DB: apivendas
+
+    ports:
+      - '5432:5432'

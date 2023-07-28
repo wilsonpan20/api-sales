@@ -1,0 +1,7 @@
+FROM postgres
+
+
+ENV POSTGRES_PASSWORD=docker
+
+
+EXPOSE 5432
