@@ -21,8 +21,10 @@ class DeleteProductService {
     }
 
 
-   await ProductRepository.remove(product);
+   await productsRepository.remove(product);
   }
 }
 
 export default DeleteProductService;
+
+
